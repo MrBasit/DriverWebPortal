@@ -1,0 +1,549 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Cantarell', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.secondary-container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.primary-container{
+  background-color:#444653;
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Cantarell', sans-serif;
+}
+/* menu bar  for all*/
+.menu{
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFFFF;
+  text-align: center;
+  margin: auto;
+  background-color: #535C74;
+  height: 85px;
+}
+.menu img{
+  width: 37px;
+  padding: 2px 0 5px 0;
+}
+.menu p{
+  margin: auto;
+}
+.menu-divs{
+  padding: 2px 0 2px 0;
+  cursor: pointer;
+  /* border: 1px solid #707070; */
+}
+.menu-checkcall img{
+  width: 34px;
+  padding: 2px 0 2px 0;
+}
+.menu a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+/* scroll bar css for all*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #444653; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* index html and confirmation html styling */
+/*page 1 and page 2 utilities */
+.btn{
+  font-size: 22px;
+  background-color: #0078D7;
+  color: #F5F5F5;
+  border-radius: 9px;
+  border: 1px solid black;
+  padding: 2px 21px;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* heading 1 and 2 page */
+.page1 {
+  padding-top: 50px;
+  font-size: 18px;
+  color: #F5F5F5;
+}
+/* //form of index and confirmation html pages css start*/
+.phone-code{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+  /* height: 270px; */
+}
+.phone-code .form-confirmation-text{
+  font-size: 12px;
+  padding: 15px 75px;
+  text-align: center;
+  color: #F8F8F8;
+}
+.phone-code .number-label{
+  margin-right: 50px;
+  color: #EBEBEB;
+  font-size: 15px;
+  margin-top: 55px;
+}
+.phone-code input{
+  width: 200px;
+  height: 40px;
+  border-radius: 3px;
+  outline: none;
+  border:none;
+  background-color: #EBEBEB;
+  font-size: 30px;
+}
+.phone-code .submit-button{
+  margin-top: 50px;
+}
+.phone-code .submit-button a{
+  font-size: 22px;
+  background-color: #0078D7;
+  color: #F5F5F5;
+  border-radius: 9px;
+  border: 1px solid black;
+  padding: 2px 21px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.phone-code #submit-confirm-page{
+  margin-top: 30px;
+}
+.phone-code .form-end-a{
+  display: inline-block;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.page1-img{
+  margin-top: 167px;
+  width: 150px;
+  border: 1px solid #484a52 ;
+  margin-bottom: 22px;
+}
+/* confirm html page extra styling */
+
+/* confirmation html page  form */
+#form-confirm-page{
+  border: 1px solid #1D77FF;
+  background-color: #535C74;
+  padding: 10px 0px;
+  border-radius: 10px;
+  width: 275px;
+  /* height: 270px; */
+  margin: 25px auto 0px auto;
+}
+form  #numberlabel-confirm-page{
+  margin-right: 70px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+form #resend-code{
+  font-size: 17px;
+  margin: 18px 0;
+}
+#confirmation-logo{
+  margin-top: 128px;
+}
+/* index and confirmation html ending */
+
+/* trip.html styling start */
+#trip-secondary{
+  background-color: #FFFFFF;
+}
+#trip-primary{
+  background-color: #000000;
+}
+/* trip utilities */
+.trip-btn {
+  display: inline-block;
+  color:#003168;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 0;
+  border: 1px solid #707070;
+  background-color: #2699FB;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 9px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1px;
+  width: 157px;
+}
+.trip-delivered-checked-btn{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  padding: 2px 0px 2px 15px;
+  font-size: 11px;
+  border-radius: 9px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #575A6B;
+  border: 1px solid #707070;
+  color: #ABABAB;
+  width: 157px;
+  text-align: center;
+  margin: 0 1px;
+}
+.trip-delivered-checked-btn img{
+  width: 20px;
+  margin: auto;
+}
+#trip-header #trip-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+#trip-header #trip-nav #nav-h3{
+  font-family: 'Poppins', sans-serif;
+  color: #B9B9B9;
+  margin: 0 25px 0 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+#trip-nav-main-div{
+  display: flex;
+}
+#trip-nav-main-div .trip-nav-main-div-sub{
+  width: 8px;
+  height: 8px;
+  background-color: blue;
+  margin: 2px;
+  border-radius: 5px;
+}
+/* colapsable trip page */
+.trip-content-parent{
+  display: flex;
+  justify-content: space-evenly;
+}
+.trip-colapsbar-main{
+  display: flex;
+  flex-direction: column;
+}
+.trip-main-div{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  /* justify-content: flex-start; */
+  height: 502px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-top: 5px;
+}
+.trip-colapse{
+  width: 30px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.trip-colapse img{
+  width: 15px;
+  margin: 0 auto;
+}
+.trip-colapse-main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px;
+}
+.trip-left-div-withContent{
+  width: 5px;
+  height: 296px;
+  background-color: #FFFFFF;
+  margin: 0 12px;
+}
+.trip-left-div-withoutContent{
+  width: 5px;
+  height: 75px;
+  background-color: #FFFFFF;
+  margin: 0 12px;
+}
+.trip-colapse-withoutContent img{
+  transform: rotate(-90deg);
+}
+.trip-right-div-first{
+  background-color: #2F323E;
+  border: 1px solid #2F323E;
+  border-radius: 10px;
+  width: 325px;
+  margin-bottom: 10px;
+}
+.trip-right-div-main-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.trip-drop-withoutContent h2,
+.trip-drop-withContent h2{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 19px;
+}
+.trip-icon-text-withContent,
+.trip-icon-text-withoutContent{
+  display: flex;
+  flex-direction: column;
+  line-height: 15px;
+  padding-top: 2px;
+  word-spacing: 4px;
+}
+.trip-icon-text-withoutContent{
+  border-left: 1px solid #4D4D4D;
+  padding: 0 0px 0px 10px;
+  line-height: 12px;
+}
+.trip-date-time{
+  display: flex;
+  align-items: center;
+}
+.trip-date-time p{
+  font-size: 12px;
+  color: #D2D2D2;
+  padding: 0 5px;
+} 
+.trip-date-time img{
+  width: 10px;
+  height: 10px;
+} 
+.trip-list-p{
+  text-align: initial;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 15px 0 25px 0;
+  padding: 0 10px;
+}
+/* trip btn utilites */
+.trip-btn-div{
+  text-align: center;
+  display: flex;
+  margin-bottom: 2px;
+  justify-content: center;
+}
+/* deliver green color of left div */
+.delivered{
+  background-color: #25986A;
+}
+.check-in{
+  background-image: linear-gradient(#25986A 0%,#25986A 20%, #FFFFFF 21%, #FFFFFF 100%);
+}
+/* trip html styling end */
+
+/* check call css */
+#check-call-primary{
+  font-family: 'Poppins', sans-serif;
+  background-color:#444653 ;
+  height: 539px;
+  padding: 5px;
+  border: 1px solid #95989A;
+}
+.main-map{
+  background: url("./img/Map.png") no-repeat center center/cover;
+  width: 360px;
+  height: 510px;
+  padding: 10px;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-map p{
+  color:#2699FB ;
+  word-spacing: -1px;
+  font-weight: 600;
+  font-size: 12px;
+}
+.check-call{
+  margin-bottom: 5px;
+}
+.check-call-btn{
+  display: flex;
+  color: #2699FB;
+  background-color: #FFFFFF;
+  width: 305px;
+  justify-content: center;
+  padding: 25px 20px 10px 5px;
+  margin-left: 15px;
+}
+.check-call-btn img{
+  width: 30px;
+  margin:auto 0;
+}
+.check-call-btn div{
+  text-align: initial;
+  width: 250px;
+  margin: auto 30px auto 30px;
+  line-height: 15px;
+}
+.check-call-btn div p{
+  font-size: 11px;
+  font-weight: 200;
+}
+.check-call-btn div h3{
+  font-weight: 500;
+}
+/* check html css ending */
+
+/* form css start*/
+.form-logo img{
+  margin: 20px 0px 0px 0px;
+  width: 130px;
+}
+.form-page{
+  height: 466px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+.form-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7px auto;
+}
+.form-page-label{
+  background-color: #2699FB;
+  width: 100px;
+  padding: 18px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: initial;
+  margin: 0 auto;
+  height: 50px;
+}
+.form-page-input{
+  background-color: #FFFFFF;
+  color: #2699FB;
+  width: 250px;
+  padding: 11px;
+  outline: none;
+  border:1px solid #BCE0FD;
+  height: 50px;
+}
+.form-page-input::placeholder{
+  background-color: #FFFFFF;
+  color: #2699FB;
+}
+/* form html css end */
+
+/* load html css start*/
+.load-prim{
+  /* height: 570px; */
+  padding: 10px 5px 0px 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.load-nav{
+  display: flex;
+  background-color: #83D5D8;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #707070;
+}
+.load-nav img{
+  width: 14px;
+  margin-top: 5px;
+}
+.load-nav p{
+  margin: auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+.load-first-heading{
+  padding-right: 25px;
+}
+.load-nav-img{
+  width: 37px;
+  background-color:#FAFAFA;
+  border: 1px solid #F1F9FF;
+  border-radius: 5px;
+  padding: 2px;
+}
+.load-withContent .load-nav-img img{
+  transform: rotate(90deg);
+}
+.file-cam-main,.file,.camera{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #707070;
+  background-color: #2699FB;
+  font-family: 'Poppins', sans-serif;
+}
+.file,.camera{
+  width: 184px;
+  padding: 6px;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: 600;
+}
+.camera{
+  justify-content: space-evenly;
+}
+.file img,.camera img{
+  width: 25px;
+  margin: auto 0;
+}
+.load-content{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 24px;
+  border-top: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+}
+.load-bol{
+  display: flex;
+  flex-direction: column;
+}
+.load-blue{
+  width: 60px;
+  width: 175px;
+  height: 140px;
+  background-color: #BCE0FD;
+}
+.load-white{
+  background-color: #FFFFFF;
+  width: 175px;
+  color: #2699FB;
+  text-align: initial;
+  padding: 15px;
+}
+.load-white h5{
+  font-size: 20px;
+}
+.load-white p{
+  font-size: 13px;
+}
+/* load margins */
+.load-margin{
+  margin-top: 15px;
+}
+/* load html css end */
