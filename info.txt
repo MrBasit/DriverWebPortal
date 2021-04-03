@@ -1,0 +1,15 @@
+https://driverwebportal.netlify.app/
+https://driverwebportal.netlify.app/confirmation.html
+
+https://driverwebportal.netlify.app/check_call
+https://driverwebportal.netlify.app/check_call2
+https://driverwebportal.netlify.app/check_call3
+
+https://driverwebportal.netlify.app/load
+
+https://driverwebportal.netlify.app/trip
+
+https://driverwebportal.netlify.app/form
+
+
+
